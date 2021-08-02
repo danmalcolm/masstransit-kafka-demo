@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitKafkaDemo", "MassTransitKafkaDemo\MassTransitKafkaDemo.csproj", "{E487E5F8-4AE3-4B69-BDFA-89E4876D3F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C34B9109-7978-46B0-BF06-6157F797DDBE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		docker-compose.yml = docker-compose.yml
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E487E5F8-4AE3-4B69-BDFA-89E4876D3F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E487E5F8-4AE3-4B69-BDFA-89E4876D3F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E487E5F8-4AE3-4B69-BDFA-89E4876D3F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E487E5F8-4AE3-4B69-BDFA-89E4876D3F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A19A56D9-9E18-4D6E-9CF8-BC0279F5D9DB}
+	EndGlobalSection
+EndGlobal

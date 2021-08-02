@@ -1,0 +1,26 @@
+{
+  "namespace": "MassTransitKafkaDemo.Messages",
+  "type": "record",
+  "doc": "The event raised when a task is completed.",
+  "name": "TaskCompleted",
+  "fields": [
+    {
+      "name": "Id",
+      "type":
+      {
+        "type": "string",
+        "logicalType":  "uuid"
+      },
+      "doc": "The id of the task"
+    },
+    {
+      "name": "CompletedDate",
+      "type":
+      {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "The date when the task completed"
+    }
+  ]
+}

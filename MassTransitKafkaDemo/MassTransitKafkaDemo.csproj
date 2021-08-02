@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Apache.Avro" Version="1.10.2" />
+    <PackageReference Include="Confluent.SchemaRegistry" Version="1.7.0" />
+    <PackageReference Include="Confluent.SchemaRegistry.Serdes.Avro" Version="1.7.0" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.2.1" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.2.1" />
+    <PackageReference Include="MassTransit.Kafka" Version="7.2.1" />
+  </ItemGroup>
+
+</Project>

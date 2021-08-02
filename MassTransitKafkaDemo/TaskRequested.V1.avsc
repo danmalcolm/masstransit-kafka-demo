@@ -1,0 +1,30 @@
+{
+  "namespace": "MassTransitKafkaDemo.Messages",
+  "type": "record",
+  "doc": "The event raised when a task is requested.",
+  "name": "TaskRequested",
+  "fields": [
+    {
+      "name": "Id",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      },
+      "doc": "The id of the task"
+    },
+    {
+      "name": "RequestedDate",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "logicalType": "date",
+      "doc": "The date when the task was requested"
+    },
+    {
+      "name": "RequestedBy",
+      "type": "string",
+      "doc": "The name of the user that requested the task"
+    }
+  ]
+}
