@@ -23,6 +23,12 @@ It should then be possible to run the MassTransitKafkaDemo project.
 
 Install the tool apache.avro.tools 1.10 or higher (Apache tool supports logical types in avsc files)
 
+This can be installed with:
+
+```
+dotnet tool install --global Apache.Avro.Tools --version 1.10.2
+```
+
 Generate types:
 
 `avrogen -s TaskRequested.V1.avsc ..\;avrogen -s TaskStarted.V1.avsc ..\;avrogen -s TaskCompleted.V1.avsc ..\;`
